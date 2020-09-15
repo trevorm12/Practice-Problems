@@ -44,3 +44,20 @@ exec(open('3Dice.py').read())
 #Question 6
 print()
 print("Question 6: ")
+loanAmount = input("Please enter the loan amount: ")
+numberOfYears = input("Please enter the number of years: ")
+monthlyInterestRate = input("Please enter the monthly interest rate: ")
+monthlyPayment = loanAmount*(1+monthlyInterestRate)^(numberOfYears*12)
+print(monthlyPayment)
+
+#Question 7
+print()
+print("Question 7: ")
+tempF = input("Please enter a temperature in Farenheit: ")
+tempC = (tempF - 32) * (5/9)
+print(tempC)
+
+#Question 8
+print()
+print("Question 8: ")
+timeDiff = input("How many timezones away from GMT are you? ")
